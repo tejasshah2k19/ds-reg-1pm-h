@@ -47,3 +47,6 @@ array collection of data
 
 
 ------------------------------------------------------------
+
+
+main  -> location  , num , display 
