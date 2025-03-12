@@ -116,3 +116,6 @@ display : display all item / element
 
 PEEP -> location item / element 
 peek -> stack top position item / element  
+
+
+STACK -> local variable 
