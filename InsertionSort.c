@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define S 6
 
-int a[] = {};
+int a[] = {23, 43, 11, 3, 44, 55};
 
 void display()
 {
@@ -12,23 +12,26 @@ void display()
     }
 }
 
-void selectionSort()
+void insertionSort()
 {
-    int i, j, min,tmp;
+    int i, j, tmp;
 
-    for (i = 0; i < S; i++)
+    for (i = 1; i < S; i++)
     {
-        min = i;
-        for (j = i + 1; j < S; j++)
+        tmp = a[i];
+
+        for (j = i - 1; j >= 0; j--)
         {
-            if (a[min] > a[j])
+            if (a[j] > tmp)
             {
-                min = j
+                a[j + 1] = a[j];
+            }
+            else
+            {
+                break;
             }
         }
-        tmp = a[min];
-        a[min] = a[i];
-        a[i] = tmp; 
+        a[j + 1] = tmp;
     }
 }
 
@@ -38,7 +41,7 @@ int main()
     printf("\nArray Before Sort : ");
     display();
 
-    selectionSort();
+    insertionSort();
 
     printf("\nArray After Sort : ");
     display();
