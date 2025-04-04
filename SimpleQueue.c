@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include<stdlib.h>
+
 #define S 5
 
 int q[S];
@@ -23,15 +25,35 @@ void enQueue(int num)
     }
 }
 
-void display(){
+void display()
+{
     int i;
-    for(i=front;i<=rear;i++){
-        printf(" %d",q[i]);
+    for (i = front; i <= rear; i++)
+    {
+        printf(" %d", q[i]);
     }
 }
 
-void deQueue(){
-    
+void deQueue()
+{
+
+    if (front == -1)
+    {
+        printf("\nQueue is Empty ! ");
+    }
+    else
+    {
+        printf("\n%d removed", q[front]);
+        if (front == rear)
+        {
+            front = -1;
+            rear = -1;
+        }
+        else
+        {
+            front++;
+        }
+    }
 }
 
 int main()
@@ -51,7 +73,14 @@ int main()
             scanf("%d", &num);
             enQueue(num);
             break;
+        case 2:
+            deQueue();
+            break;
+        case 3:
+            display();
+            break;
 
+            case 0:exit(0);
         default:
             break;
         }
