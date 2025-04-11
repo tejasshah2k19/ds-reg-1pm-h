@@ -270,6 +270,43 @@ tmp=56
 
 --------------------------------------------------
 
+1 value 
+int x; 
+
+5 value 
+int a,b,c,d,e; 
+
+50 int value
+50 float  
+
+int a[50]; 
+float b[50]; 
+
+
+studentName 
+maths
+sci
+eng
+percentage 
+
+structure ->  collection of mix type of data 
+
+
+struct Student{
+        char studentName;
+        int maths,sci,eng;
+        float percentage;
+};
+
+
+
+
+
+
+
+
+
+
 
 
 
