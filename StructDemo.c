@@ -11,8 +11,10 @@ struct Student{
 
 int main(){
 
-    //SMA -> DMA 
-    struct Student s; 
+    //SMA : static memory allocation 
+            // int a;//4 byte  
+    //DMA : dynamic memory allocation  
+    struct Student s;//object   
     struct Student t[30]; //0...29 => total 30 t[0]:{30+12+4=>46}=30*46=>
     int i;
 

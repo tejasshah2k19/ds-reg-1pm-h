@@ -299,6 +299,66 @@ struct Student{
 };
 
 
+-----------------------------------------------------
+DMA -> 
+                        explicit 
+                        user define 
+                        self 
+
+
+
+void main(){
+
+        int a; //allocation 
+
+
+
+
+
+
+
+
+                // a no need 
+
+
+
+
+}//
+
+
+stdlib.h 
+function --> DMA 
+                1) calloc
+                2) malloc 
+                3) free 
+                4) realloc 
+
+
+
+Rule : memory -> variable -> pointer -> 
+
+
+int *p;
+
+p = malloc(sizeof(int));//
+//gcc:int:4  tc:int:2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
