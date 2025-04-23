@@ -343,6 +343,46 @@ int *p;
 p = malloc(sizeof(int));//
 //gcc:int:4  tc:int:2
 
+------------------------------------------------------
+
+create int array of size 5 using DMA , scan those data using getData() and 
+print all data using printData(). 
+create oddSum() which print sum of all odd numbers from the array. 
+
+no global variable 
+------------------------------------------------------
+
+
+monthly expense 
+tracker 
+
+
+
+date
+title
+amount
+category 
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+struct Expense
+{
+
+    char date[11]; // 22042025 22-04-2025 22/04/2025
+    char title[30];
+    int amount;
+    char category[30];
+};
+
+struct Expense e[50];
+int index = 0;
+
+
+
+
+
 
 
 
