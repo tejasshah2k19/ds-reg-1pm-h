@@ -379,6 +379,71 @@ struct Expense
 struct Expense e[50];
 int index = 0;
 
+-------------------------------------------------------------------------------
+student 
+
+
+continue -> 
+
+1. Add Student 
+2. List Student 
+3. Exit 
+
+
+1. Add Student 
+
+Enter rollNum and Name 
+1
+Ram
+Enter Marks of three Subject:
+98
+58
+62
+
+
+1. Add Student 
+2. List Student 
+3. Exit 
+
+1
+
+Enter rollNum and Name 
+2
+Laxman
+Enter Marks of three Subject:
+95
+85
+72
+
+
+1. Add Student 
+2. List Student 
+3. Exit 6
+2       
+2
+Ram      98     58      62      98      52      218               
+Laxman   95     85      72      95      72      252
+
+------------------------------------------------------------------------
+
+struct student{
+        int rollNum;
+        char name[30];
+        int s1,s2,s3; 
+        int minMarks;
+        int maxMarks;
+        int totalObtain;
+};
+
+
+------------------------------------------------------------------------
+
+
+
+
+
+
+
 
 
 
