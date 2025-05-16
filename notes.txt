@@ -438,12 +438,40 @@ struct student{
 
 ------------------------------------------------------------------------
 
+non linear data structure -> 
+                tree 
+                graph 
 
 
+Binary Tree :- 
+                        min : 0 child  
+                        max : 2 child 
+        
+node :- data {left child , right child}
+
+1) parent node 
+2) child node 
+3) root node 
+4) leaf node 
+5) sibling 
+6) height : start with 1 
+7) level  : start with 0 
+-----------------------------------------------------------------------------
+
+87,65,43,23,45,67,89,86,54,32
 
 
+49,57,67,94,85,76,75,84,90,39,48,68,9
 
+-----------------------------------------------------------------------------
 
+inOrder : left root right 
+preOrder : root left right 
+postOrder : left right root 
+
+-----------------------------------------------------------------------------
+ tree practical --> 
+ 
 
 
 
