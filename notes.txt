@@ -471,7 +471,51 @@ postOrder : left right root
 
 -----------------------------------------------------------------------------
  tree practical --> 
- 
+ ----------------------------------------------------------------------------
+
+
+ AVL Tree -> 
+        1) BST {min:0 max:2 root < left root > right }
+        2) Node Balance Factor {-1 0 1 } valid 
+
+
+        1 2 3 4 5 6 7 -> BST 
+
+Balance Factor -> how to calculate? 
+
+        BF|node| = node->left_height - node-> right_height 
+
+
+BF invalid -> Tree Rotation -> 
+
+                          Right Rotation 
+                          Left Rotation 
+
+
+
+1) LL Imbalance  -> Right Rotation {1} 
+2) RR Imbalance  -> Left  Rotation {1}
+3) LR Imbalance  -> Left-Right Rotation {2} 
+4) RL Imbalance  -> Right-Left Rotation {2}
+
+
+-----------------------------------------------------------------------------------
+Non Linear -> tree 
+                Graph -> 
+
+Graph 
+        g = {v,e}
+
+        weighted graph -> your edges have a cost 
+        directed graph - diagraph -> your  edges have a direction 
+        mix graph -> parellal edges , loop 
+
+-----------------------------------------------------------------------------------
+
+Dynamic Graph 
+
+
+
 
 
 
